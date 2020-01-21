@@ -22,4 +22,4 @@ jobs:
           command: npm run lint
       - run:
           name: Testing
-          command: npm run start
+          command: npm run test
