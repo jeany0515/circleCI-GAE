@@ -20,3 +20,6 @@ jobs:
       - run:
           name: Linting
           command: npm run lint
+      - run:
+          name: Testing
+          command: npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
